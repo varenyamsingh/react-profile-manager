@@ -1,6 +1,7 @@
 .app-container {
   padding: 20px;
   text-align: center;
+  margin: 10px 100px;
 }
 
 .user-grid {
@@ -15,6 +16,26 @@
   border-radius: 10px;
   box-shadow: 1px 2px 10px rgba(0,0,0,0.5);
   text-align: left;
+  width: 270px;
+}
+.user-card:hover{
+  cursor: pointer;
+  box-shadow: 1px 2px 10px rgba(0,0,0,0.9);
+  animation: fadeIn 0.3s ease-out;
+  
+}
+
+.header{
+  margin-bottom: 10px;
+}
+
+.add-btn{
+  border-radius: 10px;
+}
+
+.add-btn:hover{
+  background-color: #4e4e4e;
+  color: #ddd;
 }
 
 .avatar {
